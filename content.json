@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "albums": [
+    { "id": 1, "title": "Our Teenage", "subtitle": "우리가 처음 만난 그 시절", "theme": "stack", "cards": [
+      { "id": "1-1", "image": "image/album/teen_1.jpg", "title": "처음으로 찍은 효리 사진", "text": "처음 사귄 지 일주일 후, 해운대에 있는 설빙에서.\n(아마 살면서 설빙을 처음 먹어봤다)" },
+      { "id": "1-2", "image": "image/album/teen_2.jpg", "title": "그냥 웃겨서 넣은 사진", "text": "VR 테니스에 굉장히 몰두한 게임장에서" },
+      { "id": "1-3", "image": "image/album/teen_3.jpg", "title": "우후~ 사진", "text": "효리가 만으로 19살이 되던 날, 달맞이길 초입에서" },
+      { "id": "1-4", "image": "image/album/teen_4.jpg", "title": "우리의 마지막 교복 사진", "text": "우리가 마지막으로 교복을 함께 입은 날, 학교 5층에서" },
+      { "id": "1-5", "image": "image/album/teen_5.jpg", "title": "처음으로 함께한 서울 사진", "text": "터보가 수능을 친 후 서울에서" }
+    ] },
+    { "id": 2, "title": "Our Early 20s", "subtitle": "많은 일이 있었던 나날", "theme": "journal", "cards": [
+      { "id": "2-1", "image": "image/album/20_1.jpg", "title": "금발 효리", "text": "연남동(?) 브런치 카페에서 금발 효리와 함께.\n이때 면도를 안 해서 수염이 신경쓰였던 기억이 납니다." },
+      { "id": "2-2", "image": "image/album/20_2.jpg", "title": "외출 나온 날 효리", "text": "앞뒤로 당겨져 찌그러진 모자가 감상 포인트입니다." },
+      { "id": "2-3", "image": "image/album/20_3.jpg", "title": "부산 롯데월드 효리", "text": "다들 그런 말을 합니다. 군대를 기다려준 여자랑은 결혼을 해야 한다고. 저도 동의합니다." },
+      { "id": "2-4", "image": "image/album/20_4.jpg", "title": "얼짱 효리", "text": "이것도 연남동일텐데, 제 핸드폰의 커버 배경화면을 장식하고 있습니다." },
+      { "id": "2-5", "image": "image/album/20_5.jpg", "title": "국대 효리", "text": "언젠가부터 축구에 빠지게 된 효리. 함께 처음으로 여행을 간 장소이기도 한 대전입니다." },
+      { "id": "2-6", "image": "image/album/20_6.jpg", "title": "또 다른 얼짱 효리", "text": "제가 휴가를 나왔을 때, 민락에서 만났을 때 이 차림으로 나타났죠. 정말 예쁩니다." },
+      { "id": "2-7", "image": "image/album/20_7.jpg", "title": "도쿄 효리", "text": "우여곡절 많았던, 야무지게 놀았던 일본 여행입니다.\n이날 찍은 사진이 한동안 제 카톡 프사였습니다." },
+      { "id": "2-8", "image": "image/album/20_8.jpg", "title": "롯데 효리", "text": "갑자기 롯데 자이언츠를 응원하게 된 갈매기 탁.\n이날은 삼성 응원석에 잠입한 스파이 모드입니다." }
+    ] },
+    { "id": 3, "title": "Us, now", "subtitle": "지금 이 순간의 우리", "theme": "night", "cards": [
+      { "id": "3-1", "image": "image/album/now_1.jpg", "title": "눈사람과", "text": "9년 넘도록 같이 눈을 맞은 적은 손에 꼽을 듯해.\n나피셜 최고의 눈사람 김덕배 씨와 한 장." },
+      { "id": "3-2", "image": "image/album/now_2.jpg", "title": "치며들다", "text": "뭔 애도 아니고 저런 걸 좋아하냐던 모 20대 여성.\n그랬던 그녀가 한 토끼 뒤에서 사진을 찍게 되는데..." },
+      { "id": "3-3", "image": "image/album/now_3.jpg", "title": "조선효리", "text": "설악산을 간 모 20대 여성, 조선시대로 돌아가는데...\n내 배경화면이자 역대 최고의 배경화면이라고 생각해." },
+      { "id": "3-4", "image": "image/album/now_4.jpg", "title": "팝의황제", "text": "MJ는 수많은 유명 인사들의 이니셜을 나타낸 말이다.\n마이클 조던, 마이클 잭슨, 메리 제인, 그리고 나." },
+      { "id": "3-5", "image": "image/album/now_5.jpg", "title": "소풍간날", "text": "돗자리 깔고 소풍가자는 말을 효리가 했었는데, 소원 성취한 날.\n바지에 라면 다 흘렸던 그런 날..." },
+      { "id": "3-6", "image": "image/album/now_6.jpg", "title": "돔경기장", "text": "???: 제가 요 돔구쟝 이야기로만 30분 이야기할 수 있는데 짧게 설명드리쟈면,돔구쟝이 야구만 하는 게 아니고요, 복합 돔구쟝입니다." },
+      { "id": "3-7", "image": "image/album/now_7.jpg", "title": "강릉여행", "text": "강릉 여행은 속초와는 또 다른 느낌의 여행이었어. \n여유롭게 돌아다니면서 맛있는 것도 골고루 먹은?" },
+      { "id": "3-8", "image": "image/album/now_8.jpg", "title": "우사기효", "text": "우루루루루루루ㅜㅜ루루루루ㅜㅜ루야아아아아ㅏㅏㅇㅏ아아ㅏ하ㅏ아ㅏ아ㅏㅏ" },
+      { "id": "3-9", "image": "", "title": "???", "text": "앞으로 우리가 채워갈 공간" }
+    ] }
+  ],
+  "facts": {
+    "id": 4, "title": "3에 대한 토막 상식", "subtitle": "숫자 하나에서 발견하는 다섯 가지 이야기",
+    "cards": [
+      { "id": "three-colors", "title": "세 가지 빛, 수많은 색", "image": "image/RGB.png", "text": "화면 속 RGB 색은 빨강(R), 초록(G), 파랑(B)이라는 세 성분의 조합으로 표현됩니다. 세 성분의 세기를 조절하면 다양한 색을 나타낼 수 있어요.\n\n서로 다른 세 색이 함께 새로운 색을 만든다는 점에서, 숫자 3을 다양함과 조화의 이미지로 떠올려봅니다." },
+      { "id": "trinity", "title": "성부, 성자, 성령의 삼위일체", "image": "image/trinity.svg", "text": "기독교에서는 성부, 성자, 성령의 삼위일체를 상징하여 가장 신성하고 완전한 수를 의미해요.\n\n뿐만 아니라 여러 종교, 국가, 문화에서 긍정적인 수로 자주 사용되곤 합니다." },
+      { "id": "three-battery", "title": "AA 배터리를 일본에서 부르는 말", "image": "image/battery.png", "text": "3세대 단일 셀 배터리를 뜻하는 '탄산'입니다. 일본판 인어섬 에피소드에서는 '탄산 음료'라는 동음이의어로 복선을 나타냅니다.\n\n놀랍게도 치이카와 공식 굿즈로도 있습니다..." },
+      { "id": "third-ranker", "title": "랭커를 꿈꾸는 내가 하극상 3등?", "image": "image/hachiware_3.png", "text": "처음으로 랭커가 된 하치와레는 '하극상'이라는 게임에서 랭킹 3등을 달성했어요.\n\n이후 길을 가다 마주친 본인의 스승, 랏코에게 2위를 달성한 치이카와와 함께 자신의 등수를 자랑하는 모습입니다." },
+      { "id": "three-peat", "title": "전무후무한 3연패", "image": "image/real_madrid.jpg", "text": "미안하다 이거 보여주려고 어그로 끌었다. 축구 역사에 전무후무한, UEFA 챔피언스리그 3연패를 기록한 지단의 레알 마드리드 수준 실화냐? 세 시즌 동안 우리 신두형은 UCL에서 38경기 43골을 넣었다. 또 당신입니까 SIUUUUUUU" }
+    ]
+  },
+  "quiz": {
+    "id": 5, "title": "밀구 퀴즈", "subtitle": "모두 언급되거나, 효리가 충분히 알 수 있는 정보들로 문제를 냈습니다.",
+    "questions": [
+      { "id": "q1", "question": "2026년 10월 4일은 우리가 만난 지 며칠이 되는 날일까요?", "options": ["3300일", "3311일", "3330일", "3333일"], "answer": 3, "explanation": "우리가 만난 지 무려 3333일이 되는 날입니다." },
+      { "id": "q2", "question": "제가 맨날천날 밥 메뉴를 3교대로 먹는데요, 포함되지 않는 것은?", "options": ["프레퍼스", "버거킹", "뼈해장국", "라멘"], "answer": 3, "explanation": "라멘은 가끔 먹고, 저 셋에 요즘은 중식도 섞으면서 먹고 있습니다." },
+      { "id": "q3", "question": "제 휴대폰의 모델명은 무엇일까요?", "options": ["S26", "폴드 5", "플립 5", "플립 6"], "answer": 2, "explanation": "추가 설명이 필요 없소." },
+      { "id": "q4", "question": "제가 축구할 때, 포지션은 어디일까요?", "options": ["풀백", "센터백", "수비형 미드필더", "윙어"], "answer": 1, "explanation": "그는 철기둥 김민재와 이름과 국적, 포지션을 공유하며 동일한 대학교를 나왔다는 특징이 있다." },
+      { "id": "q5", "question": "제 축구 유니폼 등번호는 몇 번일까요?", "options": ["4번", "7번", "26번", "28번"], "answer": 3, "explanation": "대명문구단 첼시에서 챔피언스리그 우승을 이끈 우리의 주장님, 아스필리쿠에타 선수의 등번호입니다. 손성빈 선수와도 똑같죠." },
+      { "id": "q6", "question": "저는 대학원 몇 학기 재학중일까요?", "options": ["3", "4", "5", "6"], "answer": 1, "explanation": "25년 1학기에 입학해서 현재 4학기째 재학중입니다." },
+      { "id": "q7", "question": "다음 컵라면들 중, 제가 제일 좋아하는 컵라면은?", "options": ["육개장 작은 컵", "육개장 큰 컵", "참깨라면", "신라면"], "answer": 1, "explanation": "전 작은 컵이 맛있다는 세상의 가스라이팅을 믿지 않습니다. 저는 큰 게 더 좋아요." },
+      { "id": "q8", "question": "점점 낼 게 없는데, 제가 영국 가서 산 첼시 유니폼에 마킹된 선수는?", "options": ["Enzo Fernandes", "Cole Palmer", "Reece James", "Alejandro Garnacho"], "answer": 0, "explanation": "못난 놈..." },
+      { "id": "q9", "question": "제가 끼고 다니는 시계의 종류는?", "options": ["뭔 소리냐. 너 시계 안 끼잖아.", "디지털 시계", "갤럭시 스마트워치", "갤럭시가 아닌 스마트워치"], "answer": 2, "explanation": "누나가 워치를 바꾸면서 제가 갤럭시 스마트워치를 뚱쳤습니다." },
+      { "id": "q10", "question": "제가 생각하는, 효리의 가장 큰 매력 포인트는?", "options": ["귀여운 눈매", "오똑한 코", "단아한 입", "엉덩이"], "answer": 2, "explanation": "옛날에도 언급한 적이 있는데, 저는 효리의 입이 매력적이라고 생각합니다. 4번이라고 생각했다면, 저도 4번을 매우매우 좋아하긴 합니다." }
+    ],
+    "grades": [
+      { "grade": "A", "minPercent": 90, "image": "image/grade_a_edited.png", "title": "밀구 잘알 터보탁", "text": "멋져요! 당신은 밀구 잘알이네요~" },
+      { "grade": "B", "minPercent": 70, "image": "image/grade_b_edited.png", "title": "조금은 아쉬운걸", "text": "아쉽게 문제를 틀렸네요. 해설을 확인해보세요." },
+      { "grade": "C", "minPercent": 50, "image": "image/grade_c.png", "title": "그냥 네이티", "text": "네이티를 닮은 당신. 그냥 네이티예요." },
+      { "grade": "D", "minPercent": 30, "image": "image/grade_d_edited.png", "title": "방구쟁이", "text": "방구 뿡. 너무 많이 틀렸어요..." },
+      { "grade": "F", "minPercent": 0, "image": "image/grade_f_edited.png", "title": "당신 누구야", "text": "일부러 다 틀리시는 건가요..." }
+    ]
+  }
+}

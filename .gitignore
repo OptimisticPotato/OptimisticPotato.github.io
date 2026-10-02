@@ -1,0 +1,10 @@
+publish-files.json
+preview-*.png
+*_원본.*
+image/grade_a.jpg
+image/grade_b.png
+image/grade_d.jpg
+image/grade_f.jpg
+.DS_Store
+Thumbs.db
+node_modules/

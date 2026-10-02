@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#faf8f2">
+  <title>작은 선물</title>
+  <link rel="stylesheet" href="styles.css?v=20261003-skip-all">
+  <link rel="stylesheet" href="content.css?v=20261003-menu-labels">
+  <link rel="stylesheet" href="music.css?v=20261003-volume-slider">
+  <script src="config.js" defer></script>
+  <script src="content-data.js" defer></script>
+  <script src="content-model.js" defer></script>
+  <script src="content-app.js" defer></script>
+  <script src="music-picker.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main id="app" class="phone" aria-label="인터랙티브 선물">
+    <section id="start" class="screen start-screen" aria-label="시작 화면">
+      <button id="start-button" class="start-button" disabled aria-label="탭하여 시작">
+        <span class="earphones-label">USE EARPHONES<br>FOR THE BEST EXPERIENCE</span>
+        <span class="start-art"><img id="start-image" alt="네이티"></span>
+        <span class="tap-label">TAP TO CONTINUE</span>
+      </button>
+      <button id="skip-all" class="skip-all" aria-label="시작 과정을 건너뛰고 메인으로 이동">SKIP ALL</button>
+    </section>
+    <section id="video" class="screen video-screen" hidden aria-label="첫 번째 영상">
+      <video id="intro-video" playsinline preload="metadata"></video>
+      <div id="video-placeholder" class="video-placeholder">
+        <span class="eyebrow">THE STORY BEGINS</span>
+        <span class="placeholder-orbit">✦</span>
+        <p>이야기가 시작되는 순간</p>
+        <span class="placeholder-note">영상 1이 들어갈 자리</span>
+        <div class="progress-track"><span id="video-progress"></span></div>
+      </div>
+      <button id="play-video" class="pill video-play" hidden>영상 재생</button>
+      <button id="skip-video" class="skip-video" aria-label="영상 건너뛰기"><span>SKIP</span><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M5 4v16l12-8zM18 4h2v16h-2z"/></svg></button>
+    </section>
+    <section id="interaction" class="screen interaction-screen" hidden aria-label="이미지 2 탭 화면">
+      <img id="interaction-image" class="full-image" alt="탭하여 다음 화면으로 이동">
+      <div id="interaction-placeholder" class="scene-placeholder" hidden><span>IMAGE 02</span><p>다음 이야기를 만나보세요</p></div>
+      <button id="hotspot" class="hotspot" aria-label="종이를 눌러 편지 열기"><span id="hotspot-hint">TAP / CLICK</span></button>
+      <span class="letter-tap-label">TAP THE LETTER</span>
+    </section>
+    <section id="intro-letter" class="screen letter-screen" hidden aria-label="이미지 3">
+      <div id="intro-letter-content" class="letter-content"></div>
+      <button id="continue" class="pill continue-button">CONTINUE <span aria-hidden="true">→</span></button>
+    </section>
+    <section id="home" class="screen home-screen" hidden aria-label="메인 화면">
+      <img id="home-background" class="full-image" alt="" hidden>
+      <div id="home-placeholder" class="home-placeholder">
+        <span class="eyebrow">OUR LITTLE WORLD</span><h1>너를 위한<br>작은 공간</h1><p>하나씩, 천천히 열어보세요.</p>
+        <img id="home-character" alt="네이티">
+        <span class="home-decoration" aria-hidden="true">✧</span>
+      </div>
+      <nav class="home-nav" aria-label="콘텐츠 선택">
+        <button id="button-6" class="image-button" aria-label="1번 사진첩 열기" data-section="1"><img hidden alt=""><span class="button-fallback"><span class="button-symbol">✿</span><span class="menu-number">1</span></span></button>
+        <button id="button-7" class="image-button" aria-label="2번 사진첩 열기" data-section="2"><img hidden alt=""><span class="button-fallback"><span class="button-symbol">♫</span><span class="menu-number">2</span></span></button>
+        <button id="button-8" class="image-button" aria-label="3번 사진첩 열기" data-section="3"><img hidden alt=""><span class="button-fallback"><span class="button-symbol">✧</span><span class="menu-number">3</span></span></button>
+      </nav>
+      <nav class="home-bottom-nav" aria-label="지식, 퀴즈와 편지">
+        <button id="menu-4" class="image-button" aria-label="4번 숫자 3 카드뉴스 열기" data-section="4"><span class="button-fallback"><span class="button-symbol">◇</span><span class="menu-number">4</span></span></button>
+        <button id="menu-5" class="image-button" aria-label="5번 퀴즈 열기" data-section="5"><span class="button-fallback"><span class="button-symbol">Q</span><span class="menu-number">5</span></span></button>
+        <button id="button-5" class="image-button letter-button" aria-label="편지 열기"><img hidden alt=""><span class="button-fallback"><svg class="envelope-icon" viewBox="0 0 48 36" width="40" height="30" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="44" height="32" rx="3"/><path d="m3 4 21 17L45 4M3 32l14-13m28 13L31 19"/></svg></span></button>
+      </nav>
+    </section>
+    <section id="detail" class="screen detail-screen" hidden aria-label="별도 콘텐츠 화면">
+      <div id="detail-content" class="detail-content"></div>
+    </section>
+    <div id="letter-modal" class="letter-modal" role="dialog" aria-modal="true" aria-label="편지" hidden>
+      <div id="modal-letter-content" class="letter-content"></div>
+      <button id="close-letter" class="pill continue-button">닫기 <span aria-hidden="true">×</span></button>
+    </div>
+    <div id="opening" class="opening" aria-hidden="true"></div>
+    <audio id="background-audio" preload="none"></audio>
+    <audio id="letter-open-audio" preload="auto"></audio>
+    <audio id="start-press-audio" preload="auto"></audio>
+    <div id="audio-controls" class="audio-controls" hidden>
+      <button id="music-toggle" class="audio-button" aria-label="음악 선택" aria-haspopup="dialog"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M9 18V6l11-3v12M9 8l11-3"/><ellipse cx="6" cy="18" rx="3" ry="2"/><ellipse cx="17" cy="15" rx="3" ry="2"/></svg></button>
+      <button id="sound-toggle" class="audio-button" aria-label="배경음악 음소거" aria-pressed="false"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9Z"/><g id="speaker-waves"><path d="M16 8a6 6 0 0 1 0 8m3-11a10 10 0 0 1 0 14"/></g><g id="speaker-muted" hidden><path d="m17 9 5 6m0-6-5 6"/></g></svg></button>
+    </div>
+    <div id="music-modal" class="music-modal" role="dialog" aria-modal="true" aria-labelledby="music-heading" hidden>
+      <header class="music-header"><div><span class="content-kicker">A SOUNDTRACK FOR YOU</span><h1 id="music-heading">음악 선택</h1></div><button id="close-music" class="music-close" aria-label="음악 선택 닫기">×</button></header>
+      <div id="music-carousel" class="music-carousel" tabindex="0" aria-label="앨범 자켓을 좌우로 넘겨 음악 선택"></div>
+      <div class="music-caption"><span class="music-kicker">PLAYLIST LOOP</span><h2 id="music-title"></h2><p id="music-count"></p></div>
+      <div class="music-navigation"><button id="music-prev" class="music-arrow" aria-label="이전 곡">←</button><button id="music-play" class="music-play" aria-label="음악 일시 정지"><svg id="music-play-icon" viewBox="0 0 24 24" width="24" height="24" fill="currentColor" aria-hidden="true"><path id="music-play-path" d="M6 4h4v16H6zm8 0h4v16h-4z"/></svg></button><button id="music-next" class="music-arrow" aria-label="다음 곡">→</button></div>
+      <div class="music-volume"><div class="music-volume-label"><label for="music-volume">음량</label><output id="music-volume-value" for="music-volume">12.5%</output></div><input id="music-volume" type="range" min="0" max="100" step="0.5" value="12.5" aria-valuetext="12.5%"></div>
+      <div id="music-dots" class="music-dots" aria-label="곡 목록"></div>
+      <p class="music-drag-hint">자켓을 좌우로 넘겨 곡을 선택하세요</p>
+    </div>
+    <p id="status" class="sr-only" role="status" aria-live="polite"></p>
+  </main>
+</body>
+</html>
