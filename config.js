@@ -18,7 +18,7 @@ window.APP_CONFIG = {
     startPressSound: "audio/button_press.mp3",
     letterOpenSound: "audio/book_opening.mp3",
   },
-  audio: { introVideoVolume: 0.25 },
+  audio: { introVideoVolume: 0.4 },
   // 메인 버튼에 표시할 문구. 왼쪽 번호는 이동할 섹션 번호입니다.
   menuLabels: {
     1: "Our Teenage",
@@ -35,10 +35,10 @@ window.APP_CONFIG = {
     tracks: [
 
 
-      { id: "usagi-rap-together", title: "Usagi Rap (Those With a Sense of Rhythm Version)", src: "audio/Usagi Rap (Those With a Sense of Rhythm Version).mp3", cover: "image/music/chiikawa movie.png", volume: 0.100 },
-      { id: "kutsuzure", title: "Kutsuzure", src: "audio/Kutsuzure.mp3", cover: "image/music/chiikawa movie.png", volume: 0.100 },
-      { id: "usagi-rap", title: "Usagi Rap (Solo Version)", src: "audio/Usagi Rap (Solo Version).mp3", cover: "image/music/chiikawa movie.png", volume: 0.100 },
-      { id: "pajama-parties", title: "Pajama Parties no Uta", src: "audio/Pajama Parties no uta.mp3", cover: "image/music/pajama parties no uta.jpg", volume: 0.100 },
+      { id: "usagi-rap-together", title: "Usagi Rap (Those With a Sense of Rhythm Version)", src: "audio/Usagi Rap (Those With a Sense of Rhythm Version).mp3", cover: "image/music/chiikawa movie.png", volume: 0.200 },
+      { id: "kutsuzure", title: "Kutsuzure", src: "audio/Kutsuzure.mp3", cover: "image/music/chiikawa movie.png", volume: 0.200 },
+      { id: "usagi-rap", title: "Usagi Rap (Solo Version)", src: "audio/Usagi Rap (Solo Version).mp3", cover: "image/music/chiikawa movie.png", volume: 0.200 },
+      { id: "pajama-parties", title: "Pajama Parties no Uta", src: "audio/Pajama Parties no uta.mp3", cover: "image/music/pajama parties no uta.jpg", volume: 0.200 },
     ],
   },
   fits: { image2: "contain", image3: "contain", image4: "cover" },
